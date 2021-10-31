@@ -1,7 +1,7 @@
 {
   "app-id": "com.github.emmanueltouzery.hotwire",
   "runtime": "org.freedesktop.Platform",
-  "runtime-version": "20.08",
+  "runtime-version": "21.08",
   "sdk": "org.freedesktop.Sdk",
   "sdk-extensions": ["org.freedesktop.Sdk.Extension.rust-stable"],
   "command": "hotwire",
@@ -33,8 +33,8 @@
       "sources": [
         {
           "type": "archive",
-          "url": "https://github.com/nghttp2/nghttp2/releases/download/v1.43.0/nghttp2-1.43.0.tar.gz",
-          "sha256": "45cc3ed91966551f92b31958ceca9b3a9f23ce4faf5cbedb78aa3327cd4e5907"
+          "url": "https://github.com/nghttp2/nghttp2/releases/download/v1.45.1/nghttp2-1.45.1.tar.gz",
+          "sha256": "2379ebeff7b02e14b9a414551d73540ddce5442bbecda2748417e8505916f3e7"
         }
       ]
     },
@@ -47,8 +47,8 @@
       "sources": [
         {
           "type": "archive",
-          "url": "https://c-ares.haxx.se/download/c-ares-1.17.1.tar.gz",
-          "sha256": "d73dd0f6de824afd407ce10750ea081af47eba52b8a6cb307d220131ad93fc40"
+          "url": "https://c-ares.haxx.se/download/c-ares-1.17.2.tar.gz",
+          "sha256": "4803c844ce20ce510ef0eb83f8ea41fa24ecaae9d280c468c582d2bb25b3913d"
         }
       ]
     },
@@ -62,8 +62,8 @@
       "sources": [
         {
           "type": "archive",
-          "url": "http://www.tcpdump.org/release/libpcap-1.10.0.tar.gz",
-          "sha256": "8d12b42623eeefee872f123bd0dc85d535b00df4d42e865f993c40f7bfc92b1e"
+          "url": "http://www.tcpdump.org/release/libpcap-1.10.1.tar.gz",
+          "sha256": "ed285f4accaf05344f90975757b3dbfe772ba41d1c401c2648b7fa45b711bdd4"
         }
       ]
     },
@@ -81,8 +81,8 @@
       "sources": [
         {
           "type": "archive",
-          "sha256": "de1aafd100a1e1207c850d180e97dd91ab8da0f5eb6beec545f725cdb145d333",
-          "url": "https://1.eu.dl.wireshark.org/src/all-versions/wireshark-3.4.5.tar.xz"
+          "sha256": "cb96804f6283980ae1218843bcf0d0866d8952ef215b5f85337fce7c5d6221b3",
+          "url": "https://1.eu.dl.wireshark.org/src/all-versions/wireshark-3.5.0.tar.xz"
         }
       ]
     },
@@ -102,26 +102,14 @@
         {
           "type": "git",
           "url": "https://github.com/emmanueltouzery/hotwire",
-          "commit": "530c436ba1b004ff13597b99430e375a59f28af9"
-        },
-        {
-          "type": "patch",
-          "path": "Cargo.lock.diff"
-        },
-        {
-          "type": "patch",
-          "path": "Cargo.toml.diff"
+          "commit": "3377c82ae7391233dce8dc344fd25550cc2890c6"
         },
         {
            "type": "archive",
            "sha256": "2985b9ba7aeb5cbd02f6ed4ccac0960ef5bed27269064956a6897bd7caa129f1",
            "url": "https://registry.npmjs.org/@fortawesome/fontawesome-free/-/fontawesome-free-5.13.0.tgz"
         },
-        "cargo-sources.json",
-        {
-          "type": "patch",
-          "path": "relm-patch.diff"
-        }
+        "cargo-sources.json"
       ]
     }
   ]
