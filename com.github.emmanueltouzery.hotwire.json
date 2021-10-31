@@ -81,8 +81,8 @@
       "sources": [
         {
           "type": "archive",
-          "sha256": "cb96804f6283980ae1218843bcf0d0866d8952ef215b5f85337fce7c5d6221b3",
-          "url": "https://1.eu.dl.wireshark.org/src/all-versions/wireshark-3.5.0.tar.xz"
+          "sha256": "c6525e829bd24525ee699aa207ecd27c50646d64263a669671badfb71cd99620",
+          "url": "https://1.eu.dl.wireshark.org/src/all-versions/wireshark-3.4.9.tar.xz"
         }
       ]
     },
