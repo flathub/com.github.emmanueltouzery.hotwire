@@ -1,0 +1,41 @@
+From 0fc1564557ee3e1aca150e85a594a07f8f695db1 Mon Sep 17 00:00:00 2001
+From: Sabri Ünal <yakushabb@gmail.com>
+Date: Sat, 3 Jan 2026 04:49:39 +0300
+Subject: [PATCH] Fix appdata papercuts
+
+---
+ com.github.emmanueltouzery.hotwire.desktop              | 1 +
+ flatpak/com.github.emmanueltouzery.hotwire.metainfo.xml | 8 +++-----
+ 2 files changed, 4 insertions(+), 5 deletions(-)
+
+diff --git a/com.github.emmanueltouzery.hotwire.desktop b/com.github.emmanueltouzery.hotwire.desktop
+index 748db35..e3c6b77 100644
+--- a/com.github.emmanueltouzery.hotwire.desktop
++++ b/com.github.emmanueltouzery.hotwire.desktop
+@@ -5,3 +5,4 @@ Name=Hotwire
+ Exec=hotwire
+ Type=Application
+ Icon=com.github.emmanueltouzery.hotwire
++Categories=Network;
+diff --git a/flatpak/com.github.emmanueltouzery.hotwire.metainfo.xml b/flatpak/com.github.emmanueltouzery.hotwire.metainfo.xml
+index 9379b23..e0a437a 100644
+--- a/flatpak/com.github.emmanueltouzery.hotwire.metainfo.xml
++++ b/flatpak/com.github.emmanueltouzery.hotwire.metainfo.xml
+@@ -24,11 +24,9 @@
+     </screenshot>
+   </screenshots>
+   <url type="homepage">https://github.com/emmanueltouzery/hotwire/</url>
+-  <!--
+-Open Age Rating Service
+-https://hughsie.github.io/oars/index.html
+--->
+-  <content_rating type="oars-1.0" />
++  <url type="bugtracker">https://github.com/emmanueltouzery/hotwire/issues</url>
++  <url type="vcs-browser">https://github.com/emmanueltouzery/hotwire/</url>
++  <content_rating type="oars-1.1" />
+   <releases>
+     <release version="0.2.3" date="2022-02-20">
+       <description>
+--
+libgit2 1.7.2
+

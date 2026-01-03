@@ -90,6 +90,10 @@
           "commit": "209b74bc3fa1fe026390b65040061bbd4f42d519"
         },
         {
+           "type": "patch",
+           "path": "fix-appdata.patch"
+        },
+        {
            "type": "archive",
            "url": "https://registry.npmjs.org/@fortawesome/fontawesome-free/-/fontawesome-free-5.13.0.tgz",
            "sha256": "2985b9ba7aeb5cbd02f6ed4ccac0960ef5bed27269064956a6897bd7caa129f1"
